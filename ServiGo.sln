@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.35325.158
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiGo.Common", "ServiGo.Common\ServiGo.Common.csproj", "{2E1E350B-E6E5-4D94-8BDB-89DCF47703E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiGo.Common", "ServiGo.Common\ServiGo.Common.csproj", "{2E1E350B-E6E5-4D94-8BDB-89DCF47703E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiGo.Web", "ServiGo.Web\ServiGo.Web.csproj", "{E41A0224-E4D9-40A1-A4B9-BD9488C55D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiGo.Web", "ServiGo.Web\ServiGo.Web.csproj", "{E41A0224-E4D9-40A1-A4B9-BD9488C55D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiGo.Maui", "ServiGo.Maui\ServiGo.Maui\ServiGo.Maui.csproj", "{24118BDE-B7FD-4082-9948-B24617D13662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiGo.Maui.Droid", "ServiGo.Maui\ServiGo.Maui.Droid\ServiGo.Maui.Droid.csproj", "{8D487FF2-5831-4EAD-A792-CDCC6AC6DD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiGo.Maui.iOS", "ServiGo.Maui\ServiGo.Maui.iOS\ServiGo.Maui.iOS.csproj", "{B8CE9F5A-9D14-4A6A-9FF9-A12BC2D7BEEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,22 @@ Global
 		{E41A0224-E4D9-40A1-A4B9-BD9488C55D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41A0224-E4D9-40A1-A4B9-BD9488C55D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41A0224-E4D9-40A1-A4B9-BD9488C55D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24118BDE-B7FD-4082-9948-B24617D13662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24118BDE-B7FD-4082-9948-B24617D13662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24118BDE-B7FD-4082-9948-B24617D13662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24118BDE-B7FD-4082-9948-B24617D13662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D487FF2-5831-4EAD-A792-CDCC6AC6DD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D487FF2-5831-4EAD-A792-CDCC6AC6DD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D487FF2-5831-4EAD-A792-CDCC6AC6DD57}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8D487FF2-5831-4EAD-A792-CDCC6AC6DD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D487FF2-5831-4EAD-A792-CDCC6AC6DD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D487FF2-5831-4EAD-A792-CDCC6AC6DD57}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B8CE9F5A-9D14-4A6A-9FF9-A12BC2D7BEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CE9F5A-9D14-4A6A-9FF9-A12BC2D7BEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CE9F5A-9D14-4A6A-9FF9-A12BC2D7BEEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8CE9F5A-9D14-4A6A-9FF9-A12BC2D7BEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CE9F5A-9D14-4A6A-9FF9-A12BC2D7BEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CE9F5A-9D14-4A6A-9FF9-A12BC2D7BEEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
